@@ -35,11 +35,11 @@ body {
 }
 
 .registro-todo {
-    padding-top: 10px;
+    padding-bottom: 60px;
     width: 300px;
     height: 335px;
     border-width: 3px;
-    border-color: silver;
+    border-color: rgb(177, 177, 177);
     border-style: solid;
     border-radius: 20px;
 }
@@ -59,7 +59,7 @@ body {
 
 .boton {
     width: 270px;
-    margin-top: 10px;
+    margin-top: 35px;
     display: flex;
     justify-content: center;
     background-color: black;
