@@ -15,10 +15,7 @@ formulario.addEventListener('submit', function (evento) {
     const apellidoValor = apellidoInput.value.trim();
     const emailValor = emailInput.value.trim();
     const passwordValor = passwordInput.value;
-    const password2Valor = password2Input.value;
-    const nombreSitio = "Sporting";
-    const cadenasProhibidas = ["password", "1234", "qwerty", nombreSitio, nombreValor];
-   
+    const password2Valor = password2Input.value;   
 
     if (nombreValor === '') {
         alert("Por favor, ingresa tu nombre.");

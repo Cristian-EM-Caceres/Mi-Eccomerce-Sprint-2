@@ -26,8 +26,9 @@ app.get('/checkout', (req, res) =>{
     res.render('pages/checkout')
 })
 
-app.use('/validarFormulario', (req, res) => {
-    res.render('models/validarFormulario');
+app.post('/register', (req, res) => {
+    res.render('pages/index');
+
 });
 
 app.use((req, res) => {
